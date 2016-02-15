@@ -26,6 +26,10 @@ class Config
 	{
 		$default["controller"] = "hi";
 		$default["layout"] = "layout.php";
+
+
+        //$default["your_vars"] = "value";
+
 		return $default[$configName] ? $default[$configName] : null;
 	}
 
