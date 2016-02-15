@@ -1,0 +1,6 @@
+.DS_Store
+thumb.db
+/vendor
+*.zip
+*.ssh
+tags
