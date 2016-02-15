@@ -3,7 +3,7 @@
 define("BASE", dirname(__FILE__) . "/");
 
 // src directory
-define("CORE", BASE . "src/");
+define("CORE", BASE . "core/");
 
 // app directory
 define("APP", BASE . "app/");
