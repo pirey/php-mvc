@@ -9,16 +9,23 @@ class Foo extends Controller
 and you're ready to go!
 save the file as `foo.php` in the `app/controllers` directory
 
+access it `http://your_base_url/foo`
+
 ## Model
 ```php
 class Foo extends Model
 ```
 the file goes into `app/models` directory with the name of `foo.php`
 
+to use a model, first you load it with `$this->loadModel($model)` in the controller's method
+
+you can use it immidiately `$this->loadModel($model)->model_method()` or use `$this->model($model)->model_method()`
+
+
 ## View
 Here's the thing, you can have two types of views, a `layout` or a `content` template.
 
-to set the layout, use `$this->view->setLayout($layout_name)` in the controller's function.
+to set the layout, use `$this->view->setLayout($layout_name)` in the controller's method.
 
 and add the content view `$this->view->setContent($content)`
 
