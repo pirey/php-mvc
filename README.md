@@ -29,7 +29,7 @@ and to show the view, use `$this->view->show()`
 you can also set the layout and the content when calling `show()` method.
 `$this->view->show($content, $layout)`
 
-the awesome views goes into `app/views` directory
+the views goes into `app/views` directory
 
 
 ## That's it!
